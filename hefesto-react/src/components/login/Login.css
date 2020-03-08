@@ -1,0 +1,26 @@
+.Login-container {
+    margin: 0 auto; 
+    width: 400px; 
+    position: float;
+}
+
+.Login-tela {
+    margin-top: 20px;
+}
+
+.Login-title {
+    font-weight: normal;
+}
+
+.Login-button {
+    margin: 0 auto; 
+    width:40%
+}
+
+.Login-forgotPassword {
+    float: left;
+}
+
+.Login-btnBecomeMember {
+    float: right;
+}

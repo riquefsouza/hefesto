@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "contratos",
+            "dialect": "PostgreSQL",
+            "name": "Contratos-LOCALHOST",
+            "password": "abcd1234",
+            "port": 5432,
+            "server": "localhost",
+            "username": "postgres"
+        }
+    ]
+}

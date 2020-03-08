@@ -1,0 +1,54 @@
+C:\ambiente\git-2.25.0\bin;C:\Ruby26-x64\bin;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\ambiente\node-v10.16.3-win-x64;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Local\Yarn\bin;C:\xampp\php;C:\Users\Lenovo\.dotnet\tools;C:\flutter\bin;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin;%ANDROID_HOME%\platform-tools;C:\anaconda3;C:\anaconda3\Library\mingw-w64\bin;C:\anaconda3\Library\usr\bin;C:\anaconda3\Library\bin;C:\anaconda3\Scripts;
+
+### FLASK ####
+conda install -c anaconda flask-sqlalchemy
+conda install -c conda-forge flask-migrate
+conda install -c conda-forge flask-script
+conda install -c conda-forge flask-wtf
+conda install -c conda-forge flask-login
+
+python run.py db init
+python run.py db migrate
+python run.py db upgrade
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+pacman -Sy mingw-w64-i686-fox mingw-w64-x86_64-fox mingw-w64-i686-fltk mingw-w64-x86_64-fltk
+
+pkg-config fox --cflags --libs
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+dotnet new webapi -o hefesto_dotnet_webapi
+
+dotnet add package Microsoft.EntityFrameworkCore.InMemory
+
+dotnet add package Microsoft.AspNetCore.Authentication
+
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+
+dotnet watch run
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+dotnet new mvc --auth Individual -o hefesto_dotnet
+
+dotnet ef database update
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_221
+set ANDROID_HOME=C:\Users\Lenovo\AppData\Local\Android\Sdk
+set Path=%PATH%;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin;%ANDROID_HOME%\platform-tools
+
+npm i -g react-native-cli
+react-native init hefest_react_native
+cd hefest_react_native
+npm i react-native-vector-icons
+react-native link react-native-vector-icons
+npm i uuidv4
+react-native run-android
+
+
