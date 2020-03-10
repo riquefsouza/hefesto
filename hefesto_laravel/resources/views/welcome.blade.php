@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Curso de Laravel
+                    Curso de Laravel {{ str_replace('_', '-', app()->getLocale()) }}
                 </div>
 
                 <div class="links">

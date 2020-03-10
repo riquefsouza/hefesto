@@ -52,3 +52,36 @@ npm i uuidv4
 react-native run-android
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Since Rails 6, Webpacker is the default JavaScript compiler. So you'll also have to set it up before starting your Rails server.
+
+Install yarn using your OS package manager, or take a look at https://yarnpkg.com/en/docs/install
+
+rails webpacker:install
+yarn install --check-files
+rails s
+
+
+
+https://github.com/malihu/malihu-custom-scrollbar-plugin
+
+npm install malihu-custom-scrollbar-plugin
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+composer global require squizlabs/php_codesniffer
+
+php artisan make:controller Admin\TesteController
+
+php artisan route:list
+
+php artisan route:cache
+
+php artisan make:controller Admin\RoleController --resource
+ 
+
+
