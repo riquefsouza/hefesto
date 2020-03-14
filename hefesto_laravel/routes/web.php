@@ -22,7 +22,8 @@ Route::delete('/products/{id}', 'Admin\TesteController@destroy')->name('products
 */
 
 Route::resource('roles', 'Admin\RoleController'); //->middleware('auth');
-Route::resource('products', 'Admin\TesteController'); //->middleware('auth');
+Route::resource('teste', 'Admin\TesteController'); //->middleware('auth');
+Route::resource('products', 'ProductController');
 
 Route::get('/', function () {
     return view('index');
