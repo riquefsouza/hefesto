@@ -23,6 +23,8 @@ Route::delete('/products/{id}', 'Admin\TesteController@destroy')->name('products
 
 Route::resource('roles', 'Admin\RoleController'); //->middleware('auth');
 Route::resource('teste', 'Admin\TesteController'); //->middleware('auth');
+
+Route::any('products/search', 'ProductController@search')->name('products.search');
 Route::resource('products', 'ProductController');
 
 Route::get('/', function () {

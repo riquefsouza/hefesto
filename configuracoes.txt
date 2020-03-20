@@ -87,6 +87,8 @@ https://github.com/malihu/malihu-custom-scrollbar-plugin
 npm install malihu-custom-scrollbar-plugin
 
 
+gem install mysql2
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Programando no PHP Laravel usando o artisan ###
@@ -144,6 +146,10 @@ mongoimport --db dbhefesto --collection funcs --type csv --headerline --file c:\
 
 
 mongoimport --db dbhefesto --collection vw_adm_funcionario --type json --file c:\temp\vw_adm_funcionario_202003131430.json --jsonArray
+
+
+
+
 
 
 
