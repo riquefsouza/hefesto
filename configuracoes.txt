@@ -31,6 +31,8 @@ pacman -Sy mingw-w64-i686-fox mingw-w64-x86_64-fox mingw-w64-i686-fltk mingw-w64
 
 pkg-config fox --cflags --libs
 
+pacman -S mingw-w64-x86_64-gnucobol
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### DOTNET CORE WEB API ###
 
@@ -72,6 +74,8 @@ react-native run-android
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Instalando o Ruby on Rails ###
 
+https://apidock.com/
+
 Since Rails 6, Webpacker is the default JavaScript compiler. So you'll also have to set it up before starting your Rails server.
 
 Install yarn using your OS package manager, or take a look at https://yarnpkg.com/en/docs/install
@@ -89,6 +93,46 @@ npm install malihu-custom-scrollbar-plugin
 
 gem install mysql2
 
+rails new hefesto-rails
+
+#Alterar o arquivo Gemfile e depois usar o bundle install
+bundle install
+
+bundle show bcrypt
+
+rails s
+rails server
+
+rails dbconsole
+
+irb
+
+gem install pry
+gem install pry-require_relative
+
+rake -T
+
+rake db:create
+
+mysql -u root
+show databases;
+
+rails generate scaffold customer name:string email:string birthday:date obs:text
+
+rake db:migrate
+
+rails console
+
+http://localhost:3000/rails/info/routes
+
+# Twitter Bootstrap for Rails 6.0, Rails 5 - Rails 4.x Asset Pipeline
+# https://github.com/seyhunak/twitter-bootstrap-rails
+gem "twitter-bootstrap-rails"
+
+bundle install
+rails generate bootstrap:install static
+rails g bootstrap:layout application fluid
+rails g bootstrap:themed Customers
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Programando no PHP Laravel usando o artisan ###

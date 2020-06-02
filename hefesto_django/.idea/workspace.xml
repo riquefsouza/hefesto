@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36e18efd-d169-4cd4-ba31-1df757c24af2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../configuracoes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../configuracoes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hefesto-rails/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/../hefesto-rails/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hefesto-rails/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../hefesto-rails/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hefesto-rails/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../hefesto-rails/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +20,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -37,9 +40,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583837297680">
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587686511316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583837297680" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587686511316" />
   </component>
 </project>
