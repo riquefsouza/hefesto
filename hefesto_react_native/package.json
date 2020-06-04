@@ -11,17 +11,17 @@
   },
   "dependencies": {
     "react": "16.9.0",
-    "react-native": "0.61.5",
+    "react-native": "^0.62.2",
     "react-native-vector-icons": "^6.6.0",
-    "uuidv4": "^6.0.6"
+    "uuidv4": "^6.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.6",
-    "@babel/runtime": "^7.8.4",
+    "@babel/core": "^7.10.2",
+    "@babel/runtime": "^7.10.2",
     "@react-native-community/eslint-config": "^0.0.7",
-    "babel-jest": "^25.1.0",
+    "babel-jest": "^25.5.1",
     "eslint": "^6.8.0",
-    "jest": "^25.1.0",
+    "jest": "^25.5.4",
     "metro-react-native-babel-preset": "^0.58.0",
     "react-test-renderer": "16.9.0"
   },

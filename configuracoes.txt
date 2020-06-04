@@ -1,3 +1,36 @@
+git remote add origin https://github.com/riquefsouza/hefesto.git
+git add .
+git status
+git commit -m "sixth commit"
+git push -u origin master
+
+
+conda install -c conda-forge pyside2
+conda update --all
+
+php composer.phar update
+bundle update
+npm update
+
+
+php composer.phar create-project -s dev laminas/laminas-mvc-skeleton hefesto_laminas
+
+
+php composer.phar create-project zendframework/skeleton-application hefesto_zend
+
+
+php composer.phar create-project codeigniter4/appstarter hefesto_codeigniter
+
+php composer.phar create-project --prefer-dist cakephp/app:~4.0 hefesto_cakephp
+
+user
+profile
+menu
+page
+parameter
+category
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Configurando o PATH ###
 
 C:\ambiente\git-2.25.0\bin;
