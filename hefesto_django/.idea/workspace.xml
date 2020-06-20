@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="36e18efd-d169-4cd4-ba31-1df757c24af2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../configuracoes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../configuracoes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hefesto-rails/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/../hefesto-rails/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hefesto-rails/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../hefesto-rails/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hefesto-rails/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../hefesto-rails/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hefesto-vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hefesto-vue/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hefesto-vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hefesto-vue/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +22,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>

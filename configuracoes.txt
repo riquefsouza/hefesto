@@ -1,7 +1,7 @@
 git remote add origin https://github.com/riquefsouza/hefesto.git
 git add .
 git status
-git commit -m "sixth commit"
+git commit -m "eighth commit"
 git push -u origin master
 
 
