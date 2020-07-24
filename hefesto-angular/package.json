@@ -15,6 +15,7 @@
     "url": "https://github.com/riquefsouza/hefesto-angular.git"
   },
   "dependencies": {
+    "@angular-devkit/schematics": "^10.0.4",
     "@angular/animations": "^9.1.12",
     "@angular/common": "^9.1.12",
     "@angular/compiler": "^9.1.12",
