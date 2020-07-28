@@ -1,3 +1,4 @@
+<!--
 <app-login></app-login>
 
 <p-table [columns]="cols" [value]="cars" selectionMode="single" [(selection)]="selectedCar" 
@@ -25,7 +26,7 @@
     </ng-template>
 </p-table>
 
-<p-dialog header="Car Details" [(visible)]="displayDialog" [responsive]="true" showEffect="fade" [modal]="true" [closable]="true" [width]="300">
+<p-dialog header="Car Details" [(visible)]="displayDialog" showEffect="fade" [modal]="true" [closable]="true" >
     <div class="ui-g ui-fluid" *ngIf="car">
         <div class="ui-g-4"><label for="vin">Verificador</label></div>
         <div class="ui-g-8"><input pInputText id="vin" [(ngModel)]="car.vin" /></div>
@@ -46,3 +47,39 @@
         </div>
     </p-footer>
 </p-dialog>
+
+
+ 
+    <a routerLink="/adm-parameter-category-component">First Component</a>
+    <router-outlet></router-outlet>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hefesto</title>
+</head>
+<body>  
+
+    <div style="background-color: lightgray; margin-bottom:5px; height: 30px">
+
+        <app-menu></app-menu>
+
+        <a href="/private/desktop.xhtml">
+            <img src="/src/static/img/logo.png" alt="" style="margin-bottom: -10px;" width="40px" height="30px">
+        </a>
+        <span style="font-weight: bold;">Hefesto</span>	
+    </div>
+
+    <router-outlet></router-outlet>
+
+    <div class="rodape-central hidden-xs">
+        <div class="info-browser">
+            <span>messages['main.app.title']. Version: messages['build.version'] (messages['build.timestamp']).</span>
+        </div>
+    </div>  
+    
+</body>
+</html>

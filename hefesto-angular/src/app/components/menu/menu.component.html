@@ -1,0 +1,8 @@
+<p-sidebar [(visible)]="visibleSidebar1" [baseZIndex]="10000">
+    <h1 style="font-weight: normal">HFS Hefesto</h1>
+
+    <p-panelMenu [model]="items" [style]="{'width':'250px'}"></p-panelMenu>
+
+</p-sidebar>
+
+<button pButton type="button" (click)="visibleSidebar1 = true" icon="pi pi-bars"></button>
